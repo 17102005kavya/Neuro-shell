@@ -1,4 +1,4 @@
-# 🚀 Smart Shell AI
+# Smart Shell AI
 
 Welcome to **Smart Shell AI**, a full-stack, AI-powered web terminal that translates natural language instructions into safe, executable shell commands. 
 
@@ -6,7 +6,7 @@ Ever wanted to just say *"find all the massive files eating up my disk space"* i
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 ### 1. Natural Language to Shell Commands
 Powered by the **Google Gemini API**, Smart Shell takes plain English inputs and reliably converts them into precise Linux/Bash commands.
@@ -16,11 +16,11 @@ Before you run a command you don't understand, the AI breaks down exactly what t
 
 ### 3. Built-in Safety Modes
 You don't want AI accidentally deleting your hard drive. Smart Shell includes multiple modes:
-* 🛡️ **Safe Mode:** Automatically blocks commands matching dangerous patterns (like `rm -rf /` or `mkfs`).
-* 📖 **Learning Mode:** Always explains the generated command and asks for your confirmation before executing.
-* ⚡ **Power Mode:** Executes commands directly, relying only on the base safety validation.
+* **Safe Mode:** Automatically blocks commands matching dangerous patterns (like `rm -rf /` or `mkfs`).
+* **Learning Mode:** Always explains the generated command and asks for your confirmation before executing.
+* **Power Mode:** Executes commands directly, relying only on the base safety validation.
 
-### 4. 🐳 Secure Docker Sandboxing
+### 4.  Secure Docker Sandboxing
 Executing dynamically generated commands is risky! To keep your host machine completely safe, Smart Shell executes all generated commands inside a temporary **Docker Sandbox**. 
 * Runs an isolated `alpine` Linux container.
 * Removes the container immediately after execution (`--rm`).
@@ -29,7 +29,7 @@ Executing dynamically generated commands is risky! To keep your host machine com
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+##  Architecture & Tech Stack
 
 This project is built using a modern, unified architecture:
 
@@ -60,7 +60,7 @@ shell-ai/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 1. **Node.js** (v18+ recommended)
